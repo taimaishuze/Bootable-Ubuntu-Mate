@@ -1,0 +1,25 @@
+# Vang Lee
+# 2461 Computer Networking 3 - Linux
+# Week 5 Lab
+
+# Create a bootable persistent Linux flash drive
+
+# Downloaded image file from https://ubuntu-mate.org/download/
+# Downloaded multiboot USB creater from https://www.pendrivelinux.com/yumi-multiboot-usb-creator/
+
+# Use Windows disk management utility to format create partition with FAT32.
+# I created 8gb partition for Ubuntu Mate and have enough memory for storage.
+# Run YUMI multiboot usb creater and select distro and image file (this image should be in your download file or
+# wherever you downloaded image to).
+
+# Set your persistent file size.
+# Let YUMI do its magic.
+
+# Reboot and go into your boot order options
+# Set boot order to boot to USB.
+# You should go into a screen that will allow you to select the image file to boot.
+
+# With YUMI, I was able to create 2 seperate bootable OS; one to boot into Ubuntu Mate and the other partition to boot into Windows 10
+# in the event that my system crashes.
+
+# I hope this helps someone else since it took me the weekend and crashing my computer to get this to work. :)
